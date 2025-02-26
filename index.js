@@ -28,3 +28,6 @@ const posts = [
     likes: 152,
   },
 ];
+
+const postEl = document.getElementById("post-el");
+console.log(postEl);
