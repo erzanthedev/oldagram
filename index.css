@@ -57,3 +57,37 @@ header {
 .post-img {
   width: 100%;
 }
+
+/* Post body */
+
+.post-body {
+  padding: 21px 10px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon-heart,
+.icon-comment,
+.icon-dm {
+  width: 23px;
+}
+
+.likes {
+  display: inline-block;
+  font-weight: 700;
+  margin-block: 12px;
+  font-size: 0.8125rem;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+.comment {
+  margin: 0 0 10px;
+  font-size: 0.8125rem;
+}
