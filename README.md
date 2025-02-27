@@ -1,19 +1,79 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# 📸 Oldagram
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+### A Bootleg Version of Instagram – Because Why Not? 😆
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+---
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## 📌 Overview
 
-Happy Coding!
+**Oldagram** is a simplified, bootleg version of **Instagram**, built as part of Scrimba’s _Frontend Developer Career Course_ under the **Essential CSS Concepts** module. The primary goal of this project was to **mimic Instagram’s layout** while revisiting and strengthening my **HTML and CSS** skills.
+
+After completing the **CSS styling**, I decided to take it a step further by incorporating **JavaScript**, allowing the app to dynamically load **three posts** from a **dummy data array** using a loop.
+
+This project was designed based on a **Figma mockup**, which helped me refine my **design implementation skills** by ensuring the UI closely matched the provided layout.
+
+---
+
+## 🎯 Purpose
+
+- **Strengthen HTML & CSS skills** by replicating a familiar social media layout.
+- **Improve UI/UX accuracy** by implementing the **Figma mockup design**.
+- **Introduce JavaScript** to dynamically render posts.
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML** – Structuring the page layout.
+- **CSS** – Styling elements to mimic Instagram’s design.
+- **JavaScript** – Dynamically rendering posts from a dummy data array.
+- **Figma** – Used to guide the UI/UX design.
+
+---
+
+## 🚀 Features
+
+✅ **Instagram-like Layout** – Styled to resemble Instagram.  
+✅ **Dynamic Posts** – Uses JavaScript to loop through and display posts.  
+✅ **Figma-Based UI** – Closely follows the provided **Figma mockup**.
+
+---
+
+## 📌 How It Works
+
+1. **The page loads with three posts**, pulled from a **dummy data array** using JavaScript.
+2. **Each post displays** a user’s name, image, and caption, similar to Instagram.
+3. **Like & Interaction Features (Future Plans)** – See below for upcoming improvements!
+
+---
+
+## 🔧 Future Improvements
+
+🔹 **Enable Likes** – Users will be able to **double-click** on an image or **click the heart icon** to like a post.  
+🔹 **Expand Dynamic Content** – Allow more posts to load dynamically.  
+🔹 **Improve UI Animations** – Add subtle hover effects and transitions.
+
+---
+
+## 📸 Project Preview
+
+_(Feel free to insert a screenshot or a link to your project demo here!)_
+
+---
+
+## 📂 How to Run the Project
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/erzanthedev/oldagram.git
+   ```
+2. Open `index.html` in your browser.
+
+---
+
+## 🎉 Final Thoughts
+
+This project was an exciting challenge that **helped me sharpen my CSS skills**, practice **dynamic rendering with JavaScript**, and improve my **ability to replicate UI designs with Figma**. Looking forward to making it even better! 🚀
+
+---
+
