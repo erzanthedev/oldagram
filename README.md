@@ -57,7 +57,10 @@ This project was designed based on a **Figma mockup**, which helped me refine my
 
 ## 📸 Project Preview
 
-_(Feel free to insert a screenshot or a link to your project demo here!)_
+<img width="403" alt="image" src="https://github.com/user-attachments/assets/05e12594-59f2-4ce8-9674-4752cc3a2d4f" />
+<img width="420" alt="image" src="https://github.com/user-attachments/assets/f3cc4e1a-951d-4cb7-9b7e-7f327ea9d031" />
+
+
 
 ---
 
