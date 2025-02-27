@@ -30,28 +30,28 @@ const posts = [
 ];
 
 const contentsEl = document.getElementById("contents-el");
-
+let contentsList = "";
 for (let i = 0; i < posts.length; i++) {
-  console.log(posts[i]);
-  contentsEl.innerHTML += `
+  let { name, avatar, location, post, username, likes, comment } = posts[i];
+  contentsList += `
           <div class='post'> 
             <div class="user-info">
               <img
                 class="user-img"
-                src=${posts[i].avatar}
-                alt=${posts[i].name}
+                src=${avatar}
+                alt=${name}
               />
               <div>
-                <h2 class="user-name bold-text">${posts[i].name}</h2>
-                <p class="user-location">${posts[i].location}</p>
+                <h2 class="user-name bold-text">${name}</h2>
+                <p class="user-location">${location}</p>
               </div>
             </div>
 
             <!-- post image-->
             <img
               class="post-img"
-              src=${posts[i].post}
-              alt=${posts[i].name}
+              src=${post}
+              alt=${name}
             />
 
             <!-- post body -->
@@ -71,11 +71,13 @@ for (let i = 0; i < posts.length; i++) {
                 <img class="icon-dm" src="./images/icon-dm.png" alt="share" />
               </div>
               <!-- like count -->
-              <span class="likes bold-text">${posts[i].likes} likes</span>
+              <span class="likes bold-text">${likes} likes</span>
               <!-- username caption -->
               <p class="comment">
-                <span class="bold-text">${posts[i].username}</span>${posts[i].comment}</p>
+                <span class="bold-text">${username} </span> ${comment}</p>
             </div>
           </div>
 `;
 }
+
+contentsEl.innerHTML = contentsList;
